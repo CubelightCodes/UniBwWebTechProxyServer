@@ -35,4 +35,4 @@ Einfach das selbe Prozedere wie beim normalen API-Zugriff, nur ersetzt ihr die A
 Es kann natürlich auch der Angular HTTP-Client oder Axios, oder jede andere beliebige Methode für HTTP-Requests benutzt werden
 
 ## (Optional) Wie konfiguriere ich den Proxy-Server
-Die URL und den localhost-Port kann man in der `index.js`-Datei anpassen. Das ist nur notwendig, wenn ihr auf 5000 etwas anderes laufen lassen wollt, oder
+Die URL und den localhost-Port kann man in der `index.js`-Datei anpassen. Das ist nur notwendig, wenn ihr auf 5000 etwas anderes laufen lassen wollt, oder diese Proxy für eine andere API nutzen wollt.
