@@ -16,7 +16,7 @@ Der Proxy Server erlaubt alle beliebigen Anfragen an ihn, und macht einfach den 
 
 (Übrigens kann man diesen Proxy-Server für jede beliebige API benutzen, man muss nur die URL in der `index.js`-Datei verändern)
 
-## Wie installiere ich den Proxy-Server
+## Wie installiere ich den Proxy-Server?
 Hier wird davon ausgegangen, dass ihr NPM schon installiert habt und eure Angular Anwendung auch schon existiert
 
 1. Git-Repo klonen und entweder in einen seperaten Ordner oder als Unterordner unter euer Assignment
@@ -28,13 +28,13 @@ Hier wird davon ausgegangen, dass ihr NPM schon installiert habt und eure Angula
 ![image](https://user-images.githubusercontent.com/72654359/170254930-23438150-9ef7-4487-8a21-ecf0207930ca.png)
 
 
-## Wie mache ich dann in Angular meine HTTP-Anfrage
+## Wie mache ich dann in Angular meine HTTP-Anfrage?
 ![image](https://user-images.githubusercontent.com/72654359/170254270-70c75c00-5d7f-4bc9-8705-9786b0a4ead4.png)
 
 Einfach das selbe Prozedere wie beim normalen API-Zugriff, nur ersetzt ihr die Adresse der DSpace-API durch `http://localhost:5000/BELIEBIGER_ENDPOINT`
 Es kann natürlich auch der Angular HTTP-Client oder Axios, oder jede andere beliebige Methode für HTTP-Requests benutzt werden
 
-## (Optional) Wie konfiguriere ich den Proxy-Server
+## (Optional) Wie konfiguriere ich den Proxy-Server?
 Die URL und den localhost-Port kann man in der `index.js`-Datei anpassen. Das ist nur notwendig, wenn ihr auf 5000 etwas anderes laufen lassen wollt, oder diese Proxy für eine andere API nutzen wollt.
 
 ## Quellen
